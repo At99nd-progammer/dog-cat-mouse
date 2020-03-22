@@ -18,3 +18,18 @@ This project is just a demo how to use git
 
 //git checkout(tren ubuntu)/restore(tren window) + <fileName> : xoa bo thay doi cua mot file chua duoc cho vao staging area  
 //git  restore --staged <fileName> :  chuyen 1 file dang o trong staging area xuong working directory
+
+
+// 	git checkout -b <branch name>: tao mot branch moi
+// git branch : xem cac branch va xem minh dang dung o branch nao
+//	git checkout <branch name>: chuyen cho dung hien tai sang branch khac
+// git merge : merge B vao A (merge: sat nhap)
+A <---- B
+git checkout A
+git merge B
+
+//git branch -D <branch name> : xoa mot branch
+
+//git reset --soft <id commit> : unback commit ve trang thai o staging area
+//git reset --mixed <id commit>: unback commit ve trang thai o working directory 
+//git reset --hard <id commit> : bo han cai commit trc no di (becarefull when use it)
