@@ -33,3 +33,4 @@ git merge B
 //git reset --soft <id commit> : unback commit ve trang thai o staging area
 //git reset --mixed <id commit>: unback commit ve trang thai o working directory 
 //git reset --hard <id commit> : bo han cai commit trc no di (becarefull when use it)
+//git revert <commit name> : ( very dangerous)
