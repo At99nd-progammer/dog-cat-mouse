@@ -33,4 +33,7 @@ git merge B
 //git reset --soft <id commit> : unback commit ve trang thai o staging area
 //git reset --mixed <id commit>: unback commit ve trang thai o working directory 
 //git reset --hard <id commit> : bo han cai commit trc no di (becarefull when use it)
-//git revert <commit name> : ( very dangerous)
+//git revert <id commit > : ( very dangerous)
+
+// gitignore : bo qua mot so file neu khong muon commit no
+ // cach dung .gitignore : tạo file gitignore , trong file này muốn bỏ qua file nào chỉ cần viết tên file đấy vào, nên dùng cho những file chua được commit
