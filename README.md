@@ -49,3 +49,6 @@ git merge B
 //C1: onfig --golbal crendential.helper store : luu user & pass (khong ma hoa, de lo thong tin, khong nen dung)
 //C2 : git config --golbal crendential.helper "cache -- timeout= 18000": sau 18000p moi phai nhap lai thong tin
 //c3: ubuntu: google "gnome-keyring" hoac "git ssh"
+
+//git clone + link repository tren git : clone cod tren git ve may
+// git pull : pull code thay doi ve may
