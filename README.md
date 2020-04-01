@@ -52,3 +52,9 @@ git merge B
 
 //git clone + link repository tren git : clone cod tren git ve may
 // git pull : pull code thay doi ve may
+
+
+
+ ** pull request 
+//1. git checkout -b <branch name> : tao mot branch moi
+//2. git push origin <branch> : push branch len git
