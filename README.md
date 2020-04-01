@@ -37,3 +37,8 @@ git merge B
 
 // gitignore : bo qua mot so file neu khong muon commit no
  // cach dung .gitignore : tạo file gitignore , trong file này muốn bỏ qua file nào chỉ cần viết tên file đấy vào, nên dùng cho những file chua được commit
+
+** up code len github
+// git remote add origin + link repository da tao tren github
+// git remote -v : hien ra danh sach cac remote 
+// git push -u origin master 
