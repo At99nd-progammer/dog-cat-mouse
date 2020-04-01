@@ -24,7 +24,7 @@ This project is just a demo how to use git
 // git branch : xem cac branch va xem minh dang dung o branch nao
 //	git checkout <branch name>: chuyen cho dung hien tai sang branch khac
 // git merge : merge B vao A (merge: sat nhap)
-A <---- B
+A <---- B1
 git checkout A
 git merge B
 
@@ -41,7 +41,7 @@ git merge B
 ** up code len github
 // git remote add origin + link repository da tao tren github
 // git remote -v : hien ra danh sach cac remote 
-// git push -u origin master 
+// git push -u origin <branchName> 
 // git push : push code moi len github
 
 
@@ -52,3 +52,15 @@ git merge B
 
 //git clone + link repository tren git : clone cod tren git ve may
 // git pull : pull code thay doi ve may
+
+
+
+ ** pull request 
+//1. git checkout -b <branch name> : tao mot branch moi
+//2. git push origin <branch> : push branch len git
+//3. create a pull request on Github
+//4. review code
+	4.1. review code online (github)
+	4.2. fetch branch into local to test offline (optional)
+	4.3. approve the pull request
+//5. merge to master
