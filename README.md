@@ -42,3 +42,4 @@ git merge B
 // git remote add origin + link repository da tao tren github
 // git remote -v : hien ra danh sach cac remote 
 // git push -u origin master 
+// git push : push code moi len github
